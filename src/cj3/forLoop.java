@@ -1,4 +1,4 @@
-package java_test;
+package cj3;
 public class forLoop{
 	public static void main(String[] args)
 
