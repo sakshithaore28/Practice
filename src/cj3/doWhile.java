@@ -10,6 +10,9 @@ public class doWhile {
 			i++;
 		}while(i<=5);
 		
+		
+		
+		
 	}
 
 }
