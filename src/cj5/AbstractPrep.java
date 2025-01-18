@@ -1,6 +1,6 @@
 package cj5;
 
-abstract class car{
+abstract class car {
 	public abstract void drive();
 	
 }
