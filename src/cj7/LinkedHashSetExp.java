@@ -5,7 +5,7 @@ public class LinkedHashSetExp {
 	
 	
 	 public static void main(String args[]){  
-	 //Creating HashSet and adding elements  
+	  
 	        LinkedHashSet<String> set=new LinkedHashSet();  
 	               set.add("One");    
 	               set.add("Two");    
