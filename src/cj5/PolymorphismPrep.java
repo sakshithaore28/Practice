@@ -1,12 +1,12 @@
 package cj5;
 
-class car{
-	public void drive()
+class car3{
+	public void drive1()
 	{
 		System.out.println("driving a car");
 	}
 }
-class wagon extends car{
+class wagon extends car3{
 	public void drive()
 	{
 		System.out.println("driving a wagon");
@@ -20,7 +20,7 @@ public class PolymorphismPrep {
 		wagon w=new wagon();
 		w.drive();
 		
-		car c= new car();
+		car3 c= new car3();
 		c.drive();
 	}
 

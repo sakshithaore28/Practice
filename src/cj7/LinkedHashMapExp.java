@@ -1,5 +1,6 @@
 package cj7;
-import java.util.*; 
+import java.util.*;
+import java.util.Map.Entry; 
 public class LinkedHashMapExp {
 	 
 
@@ -17,8 +18,17 @@ public class LinkedHashMapExp {
 
 	       System.out.println("Values: "+map.values());  
 	        
-	       System.out.println("Key-Value pairs: "+map.entrySet());  
-
+	       System.out.println("Key-Value pairs: "+map.entrySet());
+	       
+	       LinkedHashMap<Integer,String>hm=new LinkedHashMap<Integer,String>();
+	       hm.put(100,"Amit");
+	       hm.put(101,"Vijay");
+	       hm.put(102, "Rahul");
+	       
+	       for(Map.Entry m:hm.entrySet()){  
+	    	   System.out.println(m.getKey()+" "+m.getValue());  
+	    	  }
+	    
 	 }  
 	}  
 

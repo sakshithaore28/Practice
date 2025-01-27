@@ -40,8 +40,8 @@ public class Task5 {
 	{
 		Box3d b = new Box3d(2,2,3);
 		
-		System.out.println(b.area());
-		System.out.println(b.volume());
+		System.out.println("Area of Box" +b.area());
+		System.out.println("volume of Box" +b.volume());
 		
 	}
 
